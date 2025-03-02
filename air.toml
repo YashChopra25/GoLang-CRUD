@@ -1,0 +1,11 @@
+root = "."  # Root directory of your project
+
+# Temporary directory to store compiled files
+tmp_dir = "tmp"
+
+[build]
+    bin = "main"  # Output binary file
+    cmd = "go build -o {{.Output}} {{.Input}}"  # Command to build your Go application
+    exclude = ["tmp/*","client/*"]
+    include = ["**/*.go"]
+    ignore =  ["tmp/*","client/*"]

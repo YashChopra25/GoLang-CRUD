@@ -1,0 +1,46 @@
+# Binary files
+*.exe
+*.out
+*.so
+*.dll
+
+# Compiled Go files
+*.o
+*.a
+*.lo
+*.la
+*.test
+*.cover
+
+# Dependency directories (Go modules)
+vendor/
+bin/
+build/
+
+# Go cache & logs
+*.log
+*.tmp
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+
+# Air live reload temp files
+.air
+tmp/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# GoLand / VSCode / JetBrains IDEs
+*.iml
+*.vscode/
+*.idea/
+.DS_Store
+
+# Test & Coverage
+coverage.out
